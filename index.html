@@ -1,1 +1,26 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC To-Do List</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>To-Do List</h1>
+        <input type="text" id="new-task-input" placeholder="Add a new task">
+        <button id="add-task-button">Add Task</button>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="js/model.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/controller.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const app = new Controller(new Model(), new View());
+        });
+    </script>
+</body>
+</html>

@@ -6,6 +6,19 @@ Proyek ini adalah implementasi sederhana dari pola desain MVC (Model-View-Contro
 
 ## Struktur
 
+```bash
+mvc-vanilla-js/
+│
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   ├── model.js
+│   ├── view.js
+│   └── controller.js
+└── README.md
+```
+
 - `index.html`: File HTML utama yang berisi struktur dasar aplikasi.
 - `css/styles.css`: File CSS untuk styling aplikasi.
 - `js/model.js`: Komponen Model yang mengelola data dan logika bisnis.

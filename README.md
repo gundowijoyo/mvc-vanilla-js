@@ -51,3 +51,5 @@ Kelas `Controller` menghubungkan Model dan View. Ia menangani penambahan dan pen
 
 Proyek sederhana ini menunjukkan prinsip-prinsip dasar pola MVC dan bagaimana itu dapat diimplementasikan dalam vanilla JavaScript. Jangan ragu untuk mengembangkan proyek ini dengan menambahkan lebih banyak fitur atau memperbaiki kode yang ada.
 
+## Warning 
+- Mungkin saja kode di repository saya ada yang error, tugas kamu yang meng clone repository ini jika ada error silahkan troubleshooting yaa dan perbaiki kode tersebut.
